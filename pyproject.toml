@@ -1,0 +1,9 @@
+[project]
+name = "transcribe-youtube-mcp"
+version = "0.1.0"
+description = "MCP server that fetches YouTube video transcripts"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+    "youtube-transcript-api>=1.2.4",
+]
